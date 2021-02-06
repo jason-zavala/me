@@ -1,82 +1,499 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<!--[if lt IE 8 ]><html class="no-js ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="no-js ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 8)|!(IE)]><!--><html class="no-js" lang="en"> <!--<![endif]-->
 <head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>TWH's Homepage</title>
+   <!--- Basic Page Needs
+   ================================================== -->
+   <meta charset="utf-8">
+	<title>Jason Zavala</title>
+	<meta name="description" content="">
+	<meta name="author" content="">
 
-<!-- Bootstrap core CSS -->
-<link rel="stylesheet" href="css/custom.css?v=2020-10-10">
-<link rel="stylesheet" href="css/bootstrap/4.4.1/bootstrap.min.css">
-<script type="text/javascript" src="js/jquery/3.4.1/jquery.min.js"></script>
-<script type="text/javascript" src="js/bootstrap/4.4.1/bootstrap.min.js"></script>
+   <!-- Mobile Specific Metas
+   ================================================== -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+	<!-- CSS
+    ================================================== -->
+   <link rel="stylesheet" href="css/default.css">
+	<link rel="stylesheet" href="css/layout.css">
+   <link rel="stylesheet" href="css/media-queries.css">
+   <link rel="stylesheet" href="css/magnific-popup.css">
+
+   <!-- Script
+   ================================================== -->
+	<script src="js/modernizr.js"></script>
+
+   <!-- Favicons
+	================================================== -->
+	<link rel="shortcut icon" href="favicon.png" >
 
 </head>
 
-<!-- body -->
 <body>
 
-<div class="container">
+   <!-- Header
+   ================================================== -->
+   <header id="home">
 
-<div class="row">
+      <nav id="nav-wrap">
 
-  <div class="col-md-2 col-sm-2 vertical-align">
-    <p>
-    <div style="max-width: 130px; text-align: center;">
-      <img src="images/jason.png" style="width: 100%;">
-    </div>
-    </p>
-  </div>
+         <a class="mobile-btn" href="#nav-wrap" title="Show navigation">Show navigation</a>
+	      <a class="mobile-btn" href="#" title="Hide navigation">Hide navigation</a>
 
-  <div class="col-md-8 col-sm-8">
-    <p><h2>Tsung-Wei Huang</h2>
-    Assistant Professor, Department of ECE<br>
-    University of Utah, Salt Lake City, UT, USA, 84112<br>
-    Office: 2124 Merrill Engineering Building (MEB)<br>
-    BS/MS (<a href="http://www.csie.ncku.edu.tw/ncku_csie/">NCKU-CS</a>), PhD (<a href="https://ece.illinois.edu/">UIUC-ECE</a>) &nbsp;
-    </p>
-  </div>
-  
-</div>
-<hr>
+         <ul id="nav" class="nav">
+            <li class="current"><a class="smoothscroll" href="#home">Home</a></li>
+            <li><a class="smoothscroll" href="#about">About</a></li>
+	         <li><a class="smoothscroll" href="#resume">Resume</a></li>
+            <li><a class="smoothscroll" href="#portfolio">Works</a></li>
+            <li><a class="smoothscroll" href="#testimonials">Testimonials</a></li>
+         </ul> <!-- end #nav -->
 
-<h3>Objective</h3>
-<p>I plan to build a spacecraft that can bring people to Mars.</p>
-<hr>
+      </nav> <!-- end #nav-wrap -->
 
-<h3>Project Ideas</h3>
-<hr>
+      <div class="row banner">
+         <div class="banner-text">
+            <h1 class="responsive-headline">I'm Jason Zavala.</h1>
+            <h3>I'm a Salt Lake City based <span>Student</span>, <span>Photographer,</span> and <span>Computer Engineer</span> creating awesome and
+            efficient programs.<a class="smoothscroll" href="#about"> Start scrolling</a>
+            and learn more <a class="smoothscroll" href="#about">about me</a>.</h3>
+            <hr />
+            <ul class="social">
+               <li><a href="https://twitter.com/ElChapoGustapo"><i class="fa fa-twitter"></i></a></li>
+               <li><a href="https://www.linkedin.com/in/jasonzavala/"><i class="fa fa-linkedin"></i></a></li>
+               <li><a href="https://www.instagram.com/thejasonzavala/"><i class="fa fa-instagram"></i></a></li>
+            </ul>
+         </div>
+      </div>
 
-<h3>Skills</h3>
-<hr>
+      <p class="scrolldown">
+         <a class="smoothscroll" href="#about"><i class="icon-down-circle"></i></a>
+      </p>
 
-<h3>Experience</h3>
-
-<hr>
-
-<h3>Expectation</h3>
-<hr>
-
-
-<h3>Contact</h3>
-<hr>
-
-</div>
+   </header> <!-- Header End -->
 
 
-<hr>
-<footer>Last update 01/10/2021</footer>
+   <!-- About Section
+   ================================================== -->
+   <section id="about">
 
-</div>
+      <div class="row">
+
+         <div class="three columns">
+
+            <img class="profile-pic"  src="images/profilepic.png" alt="" />
+
+         </div>
+
+         <div class="nine columns main-col">
+
+            <h2>About Me</h2>
+
+            <p>
+            I am a Senior Computer Engineer Student at the University of Utah. I am currently employed by the Dept. of Family and Preventive Medicine as a database developer. 
+            I enjoy photography, logic puzzles, programming, and rock climbing. 
+            </p>
+
+            <div class="row">
+
+               <div class="columns contact-details">
+
+                  <h2>Contact Details</h2>
+                  <p class="address">
+						   <span>Jason Zavala</span><br>
+	
+                     <span>jason.zavala@utah.edu</span>
+					   </p>
+
+               </div>
+
+               <div class="columns download">
+                  <p>
+                     <a href="/resume/Jason_Zavala_Resume.pdf" download="Jason_Zavala_Resume.pdf"class="button"><i class="fa fa-download"></i>Download Resume</a>
+                  </p>
+               </div>
+
+            </div> <!-- end row -->
+
+         </div> <!-- end .main-col -->
+
+      </div>
+
+   </section> <!-- About Section End-->
+
+
+   <!-- Resume Section
+   ================================================== -->
+   <section id="resume">
+
+      <!-- Education
+      ----------------------------------------------- -->
+      <div class="row education">
+
+         <div class="three columns header-col">
+            <h1><span>Education</span></h1>
+         </div>
+
+         <div class="nine columns main-col">
+
+            <div class="row item">
+
+               <div class="twelve columns">
+
+                  <h3>University of Utah</h3>
+                  <p class="info">Computer Engineering B.S <span>&bull;</span> <em class="date">Expected Dec. 2021</em></p>
+
+                  <p>
+                  <b>Course Work:</b>
+                  <ul>
+                     <li>- Algorithms & Data Structures</li>
+                     <li>- Database System Design</li>
+                     <li>- Software Development</li>
+                     <li>- Embedded Systems</li>
+                  </ul>
+                  </p>
+
+               </div>
+
+            </div> <!-- item end -->
+         </div> <!-- main-col end -->
+
+      </div> <!-- End Education -->
+
+
+      <!-- Work
+      ----------------------------------------------- -->
+      <div class="row work">
+
+         <div class="three columns header-col">
+            <h1><span>Work</span></h1>
+         </div>
+
+         <div class="nine columns main-col">
+
+            <div class="row item">
+
+               <div class="twelve columns">
+
+                  <h3>Dept. Family and Preventive Medicine</h3>
+                  <p class="info">Database programmer <span>&bull;</span> <em class="date">September 2018 - Present</em></p>
+
+                  <p>
+                  The work here mainly consists of receiving large datasets, analyzing the information, and building/designing the appropriate schema
+                  for our database. The database itself is in PostgreSQL, and I used Python and Django to interface with it. 
+                  </p>
+
+               </div>
+
+            </div> <!-- item end -->
+
+            <div class="row item">
+
+               <div class="twelve columns">
+
+                  <h3>Dept. Family and Preventive Medicine</h3>
+                  <p class="info">IT Helpdesk<span>&bull;</span> <em class="date">May 2016 - September 2018</em></p>
+
+                  <p>
+                  Manage servers, trouble shoot software/hardware issues, and manage AD profiles/enforce group policy.
+                  </p>
+
+               </div>
+
+            </div> <!-- item end -->
+
+         </div> <!-- main-col end -->
+
+      </div> <!-- End Work -->
+
+
+      <!-- Skills
+      ----------------------------------------------- -->
+      <div class="row skill">
+
+         <div class="three columns header-col">
+            <h1><span>Skills</span></h1>
+         </div>
+
+         <div class="nine columns main-col">
+
+            <p>
+            My background has helped me gain a wide variety of experience: C++, C#, Java, Python, SQL, Django, and strong fundamentals in Object-Oriented design, and Database design. 
+            </p>
+
+				<div class="bars">
+
+				   <ul class="skills">
+                  <li><span class="bar-expand css"></span><em>C#</em></li>
+                  <li><span class="bar-expand css"></span><em>Java</em></li>
+                  <li><span class="bar-expand css"></span><em>Python</em></li>
+                  <li><span class="bar-expand html5"></span><em>Django</em></li>
+										
+					</ul>
+
+				</div><!-- end skill-bars -->
+
+			</div> <!-- main-col end -->
+
+      </div> <!-- End skills -->
+
+   </section> <!-- Resume Section End-->
+
+
+   <!-- Portfolio Section
+   ================================================== -->
+   <section id="portfolio">
+
+      <div class="row">
+
+         <div class="twelve columns collapsed">
+
+            <h1>Check Out Some of My Photos:</h1>
+
+            <!-- portfolio-wrapper -->
+            <div id="portfolio-wrapper" class="bgrid-quarters s-bgrid-thirds cf">
+
+          	   <div class="columns portfolio-item">
+                  <div class="item-wrap">
+
+                     <a href="#modal-01" title="">
+                        <img alt="" src="images/portfolio/moab_arch.jpg">
+                        <div class="overlay">
+                           <div class="portfolio-item-meta">
+          					      <h5>Moab at Night</h5>
+                              <p>Photo</p>
+          					   </div>
+                        </div>
+                        <div class="link-icon"><i class="icon-plus"></i></div>
+                     </a>
+
+                  </div>
+          		</div> <!-- item end -->
+
+               <div class="columns portfolio-item">
+                  <div class="item-wrap">
+
+                     <a href="#modal-02" title="">
+                        <img alt="" src="images/portfolio/console.jpg">
+                        <div class="overlay">
+                           <div class="portfolio-item-meta">
+          					      <h5>Jump</h5>
+                              <p>Photo</p>
+          					   </div>
+                        </div>
+                        <div class="link-icon"><i class="icon-plus"></i></div>
+                     </a>
+
+                  </div>
+          		</div> <!-- item end -->
+
+               <div class="columns portfolio-item">
+                  <div class="item-wrap">
+
+                     <a href="#modal-03" title="">
+                        <img alt="" src="images/portfolio/judah.jpg">
+                        <div class="overlay">
+                           <div class="portfolio-item-meta">
+          					      <h5>Milky way Rises</h5>
+                              <p>photo</p>
+          					   </div>
+                        </div>
+                        <div class="link-icon"><i class="icon-plus"></i></div>
+                     </a>
+
+                  </div>
+          		</div> <!-- item end -->
+
+               <div class="columns portfolio-item">
+                  <div class="item-wrap">
+
+                     <a href="#modal-04" title="">
+                        <img alt="" src="images/portfolio/into-the-light.jpg">
+                        <div class="overlay">
+                           <div class="portfolio-item-meta">
+          					      <h5>Salt Flats Escape</h5>
+                              <p>Photo</p>
+          					   </div>
+                        </div>
+                        <div class="link-icon"><i class="icon-plus"></i></div>
+                     </a>
+
+                  </div>
+          		</div> <!-- item end -->
+
+          		</div>  <!-- item end -->
+
+            </div> <!-- portfolio-wrapper end -->
+
+         </div> <!-- twelve columns end -->
+
+
+         <!-- Modal Popup
+	      --------------------------------------------------------------- -->
+
+         <div id="modal-01" class="popup-modal mfp-hide">
+
+		      <img class="scale-with-grid" src="images/portfolio/modals/moab_arch.jpg" alt="" />
+
+		      <div class="description-box">
+			      <h4>Moab at Night</h4>
+			      <p>This was one of my first ever milky way photos. </p>
+		      </div>
+
+            <div class="link-box">
+		         <a class="popup-modal-dismiss">Close</a>
+            </div>
+
+	      </div><!-- modal-01 End -->
+
+         <div id="modal-02" class="popup-modal mfp-hide">
+
+		      <img class="scale-with-grid" src="images/portfolio/modals/m-console.jpg" alt="" />
+
+		      <div class="description-box">
+			      <h4>Jump</h4>
+			      <p>This photo is a composite of 9 photos to seperate the foreground and nail the details.</p>
+		      </div>
+
+            <div class="link-box">
+		         <a class="popup-modal-dismiss">Close</a>
+            </div>
+
+	      </div><!-- modal-02 End -->
+
+         <div id="modal-03" class="popup-modal mfp-hide">
+
+		      <img class="scale-with-grid" src="images/portfolio/modals/m-judah.jpg" alt="" />
+
+		      <div class="description-box">
+			      <h4>Milky way Rises</h4>
+			      <p>Taken out the West Desert, this photo is one of my favorites. I caught the milky way rising at just the right moment.</p>
+		      </div>
+
+            <div class="link-box">
+		         <a class="popup-modal-dismiss">Close</a>
+            </div>
+
+	      </div><!-- modal-03 End -->
+
+         <div id="modal-04" class="popup-modal mfp-hide">
+
+		      <img class="scale-with-grid" src="images/portfolio/modals/m-intothelight.jpg" alt="" />
+
+		      <div class="description-box">
+			      <h4>Salt Flats Escape</h4>
+			      <p>Taken at sunset, this photo is 3 photos combined for the panoramic effect.</p>
+		      </div>
+
+            <div class="link-box">
+		         <a class="popup-modal-dismiss">Close</a>
+            </div>
+
+	      </div><!-- modal-04 End -->
+
+        
+	      </div><!-- modal-01 End -->
+
+
+      </div> <!-- row End -->
+
+   </section> <!-- Portfolio Section End-->
+
+
+   	
+
+   <!-- Testimonials Section
+   ================================================== -->
+   <section id="testimonials">
+
+      <div class="text-container">
+
+         <div class="row">
+
+            <div class="two columns header-col">
+
+               <h1><span>Client Testimonials</span></h1>
+
+            </div>
+
+            <div class="ten columns flex-container">
+
+               <div class="flexslider">
+
+                  <ul class="slides">
+
+                     <li>
+                        <blockquote>
+                           <p>
+                           Dont waste time on that stupid website.
+                           </p>
+                           <cite>Kidus Yohannes</cite>
+                        </blockquote>
+                     </li> <!-- slide ends -->
+
+                     <li>
+                        <blockquote>
+                           <p>
+                           Yeah, you're alright 
+                           </p>
+                           <cite>My boss</cite>
+                        </blockquote>
+                     </li> <!-- slide ends -->
+
+                  </ul>
+
+               </div> <!-- div.flexslider ends -->
+
+            </div> <!-- div.flex-container ends -->
+
+         </div> <!-- row ends -->
+
+       </div>  <!-- text-container ends -->
+
+   </section> <!-- Testimonials Section End-->
+
+
+   <!-- footer
+   ================================================== -->
+   <footer>
+
+      <div class="row">
+
+         <div class="twelve columns">
+
+            <ul class="social-links">
+               <li><a href="https://twitter.com/ElChapoGustapo"><i class="fa fa-twitter"></i></a></li>
+               <li><a href="https://www.linkedin.com/in/jasonzavala/"><i class="fa fa-linkedin"></i></a></li>
+               <li><a href="https://www.instagram.com/thejasonzavala/"><i class="fa fa-instagram"></i></a></li>
+           
+            </ul>
+
+            <ul class="copyright">
+               <li>&copy; Copyright 2021 JZ</li>
+            </ul>
+
+         </div>
+
+         <div id="go-top"><a class="smoothscroll" title="Back to Top" href="#home"><i class="icon-up-open"></i></a></div>
+
+      </div>
+
+   </footer> <!-- Footer End-->
+
+   <!-- Java Script
+   ================================================== -->
+   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+   <script>window.jQuery || document.write('<script src="js/jquery-1.10.2.min.js"><\/script>')</script>
+   <script type="text/javascript" src="js/jquery-migrate-1.2.1.min.js"></script>
+
+   <script src="js/jquery.flexslider.js"></script>
+   <script src="js/waypoints.js"></script>
+   <script src="js/jquery.fittext.js"></script>
+   <script src="js/magnific-popup.js"></script>
+   <script src="js/init.js"></script>
 
 </body>
-  
-  <!--<script src="js/news.js"></script>
-  <script src="js/index.js"></script>-->
 
 </html>
-
-
